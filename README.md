@@ -1,9 +1,9 @@
-Axelor Open Suite
+Axtrae Open Suite
 ================================
 
-Axelor Open Suite reduces the complexity and improve responsiveness of business processes. Thanks to its modularity, you can start with few features and  then activate other modules when needed.
+Axtrae Open Suite reduces the complexity and improve responsiveness of business processes. Thanks to its modularity, you can start with few features and  then activate other modules when needed.
 
-Axelor Open Suite includes the following modules :
+Axtrae Open Suite includes the following modules :
 
 * Customer Relationship Management
 * Sales management
@@ -14,13 +14,13 @@ Axelor Open Suite includes the following modules :
 * Production Management
 * Multi-company, multi-currency and multi-lingual
 
-Axelor Open Suite is built on top of [Axelor Open Platform](https://github.com/axelor/axelor-open-platform)
+Axtrae Open Suite is built on top of [Axtrae Open Platform](https://github.com/axelor/axelor-open-platform)
 
 
 Installation
 ================================
 
-To compile and run from source, you will need to clone Axelor Open Suite modules, which is a
+To compile and run from source, you will need to clone Axtrae Open Suite modules, which is a
 [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) repository, using following commands:
 
 ```bash
