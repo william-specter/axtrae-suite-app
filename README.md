@@ -14,23 +14,29 @@ Axtrae Open Suite includes the following modules :
 * Production Management
 * Multi-company, multi-currency and multi-lingual
 
-Axtrae Open Suite is built on top of [Axtrae Open Platform](https://github.com/axelor/axelor-open-platform)
+Axtrae Open Suite is built on top of a customized version of the Axelor Open Platform.
 
 
 Installation
 ================================
 
-To compile and run from source, you will need to clone Axtrae Open Suite modules, which is a
-[git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) repository, using following commands:
+To compile and run from source, you only need to clone this repository. All modules are included.
 
 ```bash
-$ git clone git@github.com:axelor/open-suite-webapp.git
-$ cd open-suite-webapp
-$ git checkout master
-$ git submodule init
-$ git submodule update
-$ git submodule foreach git checkout master
-$ git submodule foreach git pull origin master
+$ git clone git@github.com:william-specter/axtrae-suite-app.git
+$ cd axtrae-suite-app
 ```
 
-You can find more detailed [installation instructions](https://docs.axelor.com/abs/5.0/install/index.html) on our documentation.
+### Running the application
+
+Once the project is cloned, you can run the application using the Gradle wrapper:
+
+```bash
+# On Windows
+.\gradlew.bat run
+
+# On Linux/macOS
+./gradlew run
+```
+
+This will start the application, and it should be available at `http://localhost:8080`. Please ensure you have a PostgreSQL database configured as specified in `src/main/resources/axtrae-config.properties`.
