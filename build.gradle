@@ -10,8 +10,8 @@ plugins {
 }
 
 axelor {
-  title "Axelor ERP"
-  description "Axelor Entreprise Application"
+  title "Axtrae ERP"
+  description "Axtrae Entreprise Application"
 }
 
 allprojects {
